@@ -1,0 +1,72 @@
+body {
+   background-color: #cbe4de;
+}
+
+header h1 {
+   text-align: center;
+   font-size: 50px;
+}
+
+table tr td img {
+   height: 150px;
+   border-radius: 75px;
+}
+
+span {
+   font-weight: bold;
+   height: 50px;
+}
+
+#my_intro {
+   color: #002B5B;
+   font-size: 25px;
+}
+
+#java-color {
+   color: red;
+}
+
+#guava-color {
+   color: #df816b;
+}
+
+.python-color {
+   color: #0c6e0c;
+}
+
+#melon-color {
+   color: #FF8FB1;
+}
+
+#my_quote {
+   font-style: italic;
+   color: #2B4865;
+   font-size: 15px;
+}
+
+#initials {
+   font-size: 150px;
+   text-align: right;
+   width: 50%;
+}
+
+h1 {
+   font-size: 50px;
+}
+
+nav section a {
+   text-decoration: none;
+   color: #256D85;
+}
+
+div {
+   text-align: center;
+}
+
+hr {
+   border-style: none;
+   border-top-style: dotted;
+   border-color: grey;
+   border-width: 5px;
+   width: 5%;
+}
