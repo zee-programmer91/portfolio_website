@@ -51,12 +51,14 @@ hr {
 
 .my-experience-columns {
    display: flex;
-   margin-left: 550px;
+   margin-left: 500px;
+   margin-right: 600px;
 }
 
 .my-hobbies-columns {
    display: flex;
    margin-left: 350px;
+   margin-right: 400px;
 }
 
 .top-description {
@@ -334,4 +336,9 @@ hr {
    border-radius: 10px;
    width: 250px;
    height: 250px;
+}
+
+.white-border {
+   border: white solid 3px;
+   border-radius: 10px;
 }
