@@ -1,3 +1,4 @@
+/* ELEMENT SELECTORS */
 body {
    background-color: #cbe4de;
 }
@@ -13,7 +14,7 @@ span {
 }
 
 h1 {
-   font-size: 50px;
+   font-size: 100px;
 }
 
 nav section a {
@@ -32,6 +33,29 @@ hr {
    border-width: 5px;
    width: 5%;
 }
+
+.dark-blue {
+   color: #2B4865;
+}
+
+.just-blue {
+   color: #256D85;
+}
+
+
+/* CLASS SELECTORS */
+.my-skills-column {
+   /* background-color: #002B5B; */
+   display: flex;
+   margin-left: 40px;
+}
+
+.my-experience-columns {
+   display: flex;
+   margin-left: 550px;
+}
+
+/* ID SELECTORS */
 
 #my-image {
    border-radius: 30px;
@@ -57,10 +81,6 @@ hr {
    color: #df816b;
 }
 
-.python-color {
-   color: #0c6e0c;
-}
-
 #melon-color {
    color: #FF8FB1;
 }
@@ -79,4 +99,56 @@ hr {
 #my-header {
    display: flex;
    min-width: 800px;
+}
+
+#python-div {
+   background-color: #2a34ee;
+   color: yellow;
+   height: 500px;
+   width: 260px;
+}
+
+#java-div {
+   background-color: rgb(190, 39, 39);
+   color: yellow;
+   height: 500px;
+   width: 260px;
+}
+
+#cSharp-div {
+   background-color: #c72aee;
+   color: yellow;
+   height: 500px;
+   width: 260px;
+}
+
+#javascript-div {
+   background-color: #d4a522;
+   color: yellow;
+   height: 500px;
+   width: 260px;
+
+}
+
+#sql-div {
+   background-color: #0b1186;
+   color: yellow;
+   height: 500px;
+   width: 260px;
+
+}
+
+#css-div {
+   background-color: #3997d5;
+   color: yellow;
+   height: 500px;
+   width: 260px;
+
+}
+
+#html-div {
+   background-color: #ee782a;
+   color: yellow;
+   height: 500px;
+   width: 260px;
 }
