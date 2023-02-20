@@ -82,6 +82,12 @@ hr {
    font-size: 45px;
 }
 
+.hobbies-subheading {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 22px;
+   font-weight: bold; 
+}
+
 /* ID SELECTORS */
 
 #my-image {
@@ -190,23 +196,23 @@ hr {
 }
 
 #watching-div {
-   background-color: #024893;
+   /* background-color: #024893; */
    color: black;
-   height: 500px;
+   height: 1400px;
    width: 400px;
 }
 
 #playing-div {
-   background-color: #024893;
+   /* background-color: #024893; */
    color: black;
-   height: 500px;
+   height: 1400px;
    width: 400px;
 }
 
 #reading-div {
-   background-color: #024893;
+   /* background-color: #024893; */
    color: black;
-   height: 500px;
+   height: 1400px;
    width: 400px;
 }
 
@@ -271,4 +277,61 @@ hr {
    display: inline-block;
    height: 220px;
    width: 200px;
+}
+
+#movies-image {
+   border-radius: 10px;
+   width: 200px;
+}
+
+#series-image {
+   border-radius: 10px;
+   width: 200px;
+}
+
+#anime-image {
+   border-radius: 10px;
+   width: 200px;
+}
+
+#mobile-games-image {
+   border-radius: 10px;
+   width: 300px   ;
+   height: 250px;
+}
+
+#playstation-xbox-image{
+   border-radius: 10px;
+   width: 300px;
+   height: 250px;
+}
+
+#pc-games-image {
+   border-radius: 10px;
+   width: 300px;
+   height: 250px;
+}
+
+#board-games-image {
+   border-radius: 10px;
+   width: 300px;
+   height: 250px;
+}
+
+#bible-image {
+   border-radius: 10px;
+   width: 250px;
+   height: 250px;
+}
+
+#novels-image {
+   border-radius: 10px;
+   width: 250px;
+   height: 250px;
+}
+
+#manga-image {
+   border-radius: 10px;
+   width: 250px;
+   height: 250px;
 }
