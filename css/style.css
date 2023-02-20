@@ -63,6 +63,14 @@ hr {
    font-size: 35px
 }
 
+.knowledge {
+   font-size: 30px;
+}
+
+.knowledge-percent {
+   font-size: 45px;
+}
+
 /* ID SELECTORS */
 
 #my-image {
@@ -98,95 +106,138 @@ hr {
 }
 
 #python-div {
-   background-color: #2a34ee;
-   color: yellow;
+   /* background-color: #2a34ee; */
+   color: black;
    height: 500px;
    width: 260px;
 }
 
 #java-div {
-   background-color: rgb(190, 39, 39);
-   color: yellow;
+   /* background-color: rgb(190, 39, 39); */
+   color: black;
    height: 500px;
    width: 260px;
 }
 
 #cSharp-div {
-   background-color: #c72aee;
-   color: yellow;
+   /* background-color: #c72aee; */
+   color: black;
    height: 500px;
    width: 260px;
 }
 
 #javascript-div {
-   background-color: #d4a522;
-   color: yellow;
+   /* background-color: #d4a522; */
+   color: black;
    height: 500px;
    width: 260px;
 
 }
 
 #sql-div {
-   background-color: #0b1186;
-   color: yellow;
+   /* background-color: #0b1186; */
+   color: black;
    height: 500px;
    width: 260px;
 
 }
 
 #css-div {
-   background-color: #3997d5;
-   color: yellow;
+   /* background-color: #3997d5; */
+   color: black;
    height: 500px;
    width: 260px;
 
 }
 
 #html-div {
-   background-color: #ee782a;
-   color: yellow;
+   /* background-color: #ee782a; */
+   color: black;
    height: 500px;
    width: 260px;
 }
 
 #aegis-div {
    background-color: #ee372a;
-   color: yellow;
+   color: black;
    height: 500px;
    width: 260px;
 }
 
 #bbd-div {
    background-color: #930202;
-   color: yellow;
+   color: black;
    height: 500px;
    width: 260px;
 }
 
 #wethinkcode-div {
    background-color: #024893;
-   color: yellow;
+   color: black;
    height: 500px;
    width: 260px;
 }
 
 #watching-div {
    background-color: #024893;
-   color: yellow;
+   color: black;
    height: 500px;
    width: 400px;
 }
 
 #playing-div {
    background-color: #024893;
-   color: yellow;
+   color: black;
    height: 500px;
    width: 400px;
 }
 
 #reading-div {
    background-color: #024893;
-   color: yellow;
+   color: black;
    height: 500px;
    width: 400px;
+}
+
+#python-logo {
+   display: inline-block;
+   width: 200px;
+}
+
+#java-logo {
+   border-radius: 10px;
+   display: inline-block;
+   width: 200px;
+   height: 220px;
+}
+
+#csharp-logo {
+   display: inline-block;
+   width: 200px;
+   height: 220px;
+}
+
+#javascript-logo {
+   display: inline-block;
+   height: 220px;
+   width: 200px;
+}
+
+#sql-logo {
+   display: inline-block;
+   height: 220px;
+   width: 200px;
+}
+
+#css-logo {
+   display: inline-block;
+   height: 220px;
+   width: 200px;
+}
+
+#html-logo {
+   border-radius: 10px;
+   display: inline-block;
+   height: 220px;
+   width: 200px;
 }
