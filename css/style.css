@@ -34,7 +34,21 @@ hr {
    width: 5%;
 }
 
+footer {
+   text-align: center;
+}
+
+footer h2 {
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 40px;
+}
+
 /* CLASS SELECTORS */
+.contact-images {
+   width: 60px;
+}
+
 .dark-blue {
    color: #2B4865;
 }
@@ -44,18 +58,21 @@ hr {
 }
 
 .my-skills-column {
-   /* background-color: #002B5B; */
+   background-color: #8bc5b8;
    display: flex;
    margin-left: 40px;
+   margin-right: 50px;
 }
 
 .my-experience-columns {
+   background-color: #8bc5b8;
    display: flex;
    margin-left: 500px;
    margin-right: 600px;
 }
 
 .my-hobbies-columns {
+   background-color: #8bc5b8;
    display: flex;
    margin-left: 350px;
    margin-right: 400px;
@@ -120,6 +137,7 @@ hr {
 }
 
 #my-header {
+   background-color: #8bc5b8;
    display: flex;
    min-width: 800px;
 }
