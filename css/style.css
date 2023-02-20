@@ -3,13 +3,8 @@ body {
 }
 
 header h1 {
-   text-align: center;
    font-size: 50px;
-}
-
-table tr td img {
-   height: 150px;
-   border-radius: 75px;
+   text-align: center;
 }
 
 span {
@@ -17,9 +12,41 @@ span {
    height: 50px;
 }
 
+h1 {
+   font-size: 50px;
+}
+
+nav section a {
+   color: #256D85;
+   text-decoration: none;
+}
+
+div {
+   text-align: center;
+}
+
+hr {
+   border-style: none;
+   border-top-style: dotted;
+   border-color: grey;
+   border-width: 5px;
+   width: 5%;
+}
+
+#my-image {
+   border-radius: 30px;
+   height: 250px;
+   width: 250px;
+}
+
+#image-div {
+   width: 33%;
+}
+
 #my_intro {
    color: #002B5B;
    font-size: 25px;
+   width: 33%;
 }
 
 #java-color {
@@ -39,34 +66,17 @@ span {
 }
 
 #my_quote {
-   font-style: italic;
    color: #2B4865;
+   font-style: italic;
    font-size: 15px;
 }
 
 #initials {
    font-size: 150px;
-   text-align: right;
-   width: 50%;
+   width: 33%;
 }
 
-h1 {
-   font-size: 50px;
-}
-
-nav section a {
-   text-decoration: none;
-   color: #256D85;
-}
-
-div {
-   text-align: center;
-}
-
-hr {
-   border-style: none;
-   border-top-style: dotted;
-   border-color: grey;
-   border-width: 5px;
-   width: 5%;
+#my-header {
+   display: flex;
+   min-width: 800px;
 }
