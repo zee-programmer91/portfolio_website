@@ -55,6 +55,11 @@ hr {
    margin-left: 550px;
 }
 
+.my-hobbies-columns {
+   display: flex;
+   margin-left: 350px;
+}
+
 /* ID SELECTORS */
 
 #my-image {
@@ -151,4 +156,46 @@ hr {
    color: yellow;
    height: 500px;
    width: 260px;
+}
+
+#aegis-div {
+   background-color: #ee372a;
+   color: yellow;
+   height: 500px;
+   width: 260px;
+}
+
+#bbd-div {
+   background-color: #930202;
+   color: yellow;
+   height: 500px;
+   width: 260px;
+}
+
+#wethinkcode-div {
+   background-color: #024893;
+   color: yellow;
+   height: 500px;
+   width: 260px;
+}
+
+#watching-div {
+   background-color: #024893;
+   color: yellow;
+   height: 500px;
+   width: 400px;
+}
+
+#playing-div {
+   background-color: #024893;
+   color: yellow;
+   height: 500px;
+   width: 400px;
+}
+
+#reading-div {
+   background-color: #024893;
+   color: yellow;
+   height: 500px;
+   width: 400px;
 }
