@@ -34,6 +34,7 @@ hr {
    width: 5%;
 }
 
+/* CLASS SELECTORS */
 .dark-blue {
    color: #2B4865;
 }
@@ -42,8 +43,6 @@ hr {
    color: #256D85;
 }
 
-
-/* CLASS SELECTORS */
 .my-skills-column {
    /* background-color: #002B5B; */
    display: flex;
@@ -58,6 +57,10 @@ hr {
 .my-hobbies-columns {
    display: flex;
    margin-left: 350px;
+}
+
+.top-description {
+   font-size: 35px
 }
 
 /* ID SELECTORS */
@@ -78,22 +81,10 @@ hr {
    width: 33%;
 }
 
-#java-color {
-   color: red;
-}
-
-#guava-color {
-   color: #df816b;
-}
-
-#melon-color {
-   color: #FF8FB1;
-}
-
 #my_quote {
    color: #2B4865;
    font-style: italic;
-   font-size: 15px;
+   font-size: 20px;
 }
 
 #initials {
