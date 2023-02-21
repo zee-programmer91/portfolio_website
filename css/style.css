@@ -8,17 +8,17 @@ body {
 }
 
 header h1 {
-   font-size: 50px;
+   font-size: 3.125rem;
    text-align: center;
 }
 
 span {
    font-weight: bold;
-   height: 50px;
+   height: 3.125rem;
 }
 
 h1 {
-   font-size: 100px;
+   font-size: 6.25rem;
 }
 
 nav section a {
@@ -34,7 +34,7 @@ hr {
    border-style: none;
    border-top-style: dotted;
    border-color: grey;
-   border-width: 5px;
+   border-width: 0.313rem;
    width: 5%;
 }
 
@@ -45,12 +45,12 @@ footer {
 footer h2 {
    text-align: center;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-size: 40px;
+   font-size: 2.5rem;
 }
 
 /* CLASS SELECTORS */
 .contact-images {
-   width: 60px;
+   width: 3.75rem;
 }
 
 .dark-blue {
@@ -68,12 +68,9 @@ footer h2 {
 .my-skills-column {
    background-color: #8bc5b8;
    display: flex;
-   margin-left: 40px;
-   margin-right: 50px;
-}
-
-.my-experience-columns:hover {
-   background-color: #d5e4e1;
+   flex-wrap: wrap;
+   margin-left: 1.5rem;
+   margin-right: 1.5rem;
 }
 
 .my-experience-columns:hover {
@@ -83,8 +80,9 @@ footer h2 {
 .my-experience-columns {
    background-color: #8bc5b8;
    display: flex;
-   margin-left: 500px;
-   margin-right: 600px;
+   flex-wrap: wrap;
+   margin-left: 1.5rem;
+   margin-right: 1.5rem;
 }
 
 .my-hobbies-columns:hover {
@@ -94,52 +92,53 @@ footer h2 {
 .my-hobbies-columns {
    background-color: #8bc5b8;
    display: flex;
-   margin-left: 350px;
-   margin-right: 400px;
+   flex-wrap: wrap;
+   margin-left: 21.875rem;
+   margin-right: 21.875rem;
 }
 
 .top-description {
-   font-size: 35px
+   font-size: 2.188rem
 }
 
 .knowledge {
-   font-size: 30px;
+   font-size: 1.875rem;
 }
 
 .experience-role {
    font-family: 'Times New Roman', Times, serif;
-   font-size: 22px;
+   font-size: 1.375rem;
    font-weight: bold;
 }
 
 .experience-other {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 15px;
+   font-size:  0.938rem;
 }
 
 .knowledge-percent {
-   font-size: 45px;
+   font-size: 2.813rem;
 }
 
 .hobbies-subheading {
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-size: 22px;
+   font-size: 1.375rem;
    font-weight: bold; 
 }
 
 /* ID SELECTORS */
 
 #my-image {
-   border-radius: 30px;
-   height: 250px;
-   width: 250px;
+   border-radius: 1.875rem;
+   height: 15.625rem;
+   width: 15.625rem;
 }
 
 #image-section {
    width: 33%;
 }
 
-#my_intro {
+#intro-section {
    color: #002B5B;
    font-size: 25px;
    width: 33%;
@@ -148,7 +147,7 @@ footer h2 {
 #my_quote {
    color: #2B4865;
    font-style: italic;
-   font-size: 20px;
+   font-size: 1.563rem;
 }
 
 #initials {
@@ -162,224 +161,224 @@ footer h2 {
 #my-header {
    background-color: #8bc5b8;
    display: flex;
-   min-width: 800px;
+   min-width: 50rem;
 }
 
 #python-section {
    /* background-color: #2a34ee; */
    color: black;
-   height: 500px;
-   width: 260px;
+   height: 31.25rem;
+   width: 16.25rem;
 }
 
 #java-section {
    /* background-color: rgb(190, 39, 39); */
    color: black;
-   height: 500px;
-   width: 260px;
+   height: 31.25rem;
+   width: 16.25rem;
 }
 
 #cSharp-section {
    /* background-color: #c72aee; */
    color: black;
-   height: 500px;
-   width: 260px;
+   height: 31.25rem;
+   width: 16.25rem;
 }
 
 #javascript-section {
    /* background-color: #d4a522; */
    color: black;
-   height: 500px;
-   width: 260px;
+   height: 31.25rem;
+   width: 16.25rem;
 
 }
 
 #sql-section {
    /* background-color: #0b1186; */
    color: black;
-   height: 500px;
-   width: 260px;
+   height: 31.25rem;
+   width: 16.25rem;
 
 }
 
 #css-section {
    /* background-color: #3997d5; */
    color: black;
-   height: 500px;
-   width: 260px;
+   height: 31.25rem;
+   width: 16.25rem;
 
 }
 
 #html-section {
    /* background-color: #ee782a; */
    color: black;
-   height: 500px;
-   width: 260px;
+   height: 31.25rem;
+   width: 16.25rem;
 }
 
 #aegis-section {
    /* background-color: #ee372a; */
    color: black;
-   height: 500px;
-   width: 260px;
+   height: 31.25rem;
+   width: 16.25rem;
 }
 
 #bbd-section {
    /* background-color: #930202; */
    color: black;
-   height: 500px;
-   width: 260px;
+   height: 31.25rem;
+   width: 16.25rem;
 }
 
 #wethinkcode-section {
    /* background-color: #024893; */
    color: black;
-   height: 500px;
-   width: 260px;
+   height: 31.25rem;
+   width: 16.25rem;
 }
 
 #watching-section {
    /* background-color: #024893; */
    color: black;
-   height: 1400px;
-   width: 400px;
+   height: 87.5rem;
+   width: 25rem;
 }
 
 #playing-section {
    /* background-color: #024893; */
    color: black;
-   height: 1400px;
-   width: 400px;
+   height: 87.5rem;
+   width: 25rem;
 }
 
 #reading-section {
    /* background-color: #024893; */
    color: black;
-   height: 1400px;
-   width: 400px;
+   height: 87.5rem;
+   width: 25rem;
 }
 
 #python-logo {
    display: inline-block;
-   width: 200px;
+   width: 11.5rem;
 }
 
 #java-logo {
-   border-radius: 10px;
+   border-radius: 10.625rem;
    display: inline-block;
-   width: 200px;
-   height: 220px;
+   width: 12.5rem;
+   height: 12.5rem;
 }
 
 #csharp-logo {
    display: inline-block;
-   width: 200px;
-   height: 220px;
+   width: 12.5rem;
+   height: 12.5rem;
 }
 
 #javascript-logo {
    display: inline-block;
-   height: 220px;
-   width: 200px;
+   height: 12.5rem;
+   width: 12.5rem;
 }
 
 #sql-logo {
    display: inline-block;
-   height: 220px;
-   width: 200px;
+   height: 12.5rem;
+   width: 12.5rem;
 }
 
 #css-logo {
    display: inline-block;
-   height: 220px;
-   width: 200px;
+   height: 12.5rem;
+   width: 12.5rem;
 }
 
 #html-logo {
-   border-radius: 10px;
+   border-radius: 0.625rem;
    display: inline-block;
-   height: 220px;
-   width: 200px;
+   height: 12.5rem;
+   width: 12.5rem;
 }
 
 #aegis-logo {
-   border-radius: 10px;
+   border-radius: 10.625rem;
    display: inline-block;
-   height: 220px;
-   width: 200px;
+   height: 12.5rem;
+   width: 12.5rem;
 }
 
 #wethinkcode-logo {
    display: inline-block;
-   height: 220px;
-   width: 200px;
+   height: 12.5rem;
+   width: 12.5rem;
 }
 
 #bbd-logo {
-   border-radius: 10px;
+   border-radius: 10.625rem;
    display: inline-block;
-   height: 220px;
-   width: 200px;
+   height: 12.5rem;
+   width: 12.5rem;
 }
 
 #movies-image {
-   border-radius: 10px;
-   width: 200px;
+   border-radius: 10.625rem;
+   width: 12.5rem;
 }
 
 #series-image {
-   border-radius: 10px;
-   width: 200px;
+   border-radius: 10.625rem;
+   width: 12.5rem;
 }
 
 #anime-image {
-   border-radius: 10px;
-   width: 200px;
+   border-radius: 10.625rem;
+   width: 12.5rem;
 }
 
 #mobile-games-image {
-   border-radius: 10px;
-   width: 300px   ;
-   height: 250px;
+   border-radius: 1.625rem;
+   width: 20.625rem;
+   height: 15.625rem;
 }
 
 #playstation-xbox-image{
-   border-radius: 10px;
-   width: 300px;
-   height: 250px;
+   border-radius: 1.625rem;
+   width: 18.75rem;
+   height: 15.625rem;
 }
 
 #pc-games-image {
-   border-radius: 10px;
-   width: 300px;
-   height: 250px;
+   border-radius: 1.625rem;
+   width: 18.75rem;
+   height: 15.625rem;
 }
 
 #board-games-image {
-   border-radius: 10px;
-   width: 300px;
-   height: 250px;
+   border-radius: 1.625rem;
+   width: 18.75rem;
+   height: 15.625rem;
 }
 
 #bible-image {
-   border-radius: 10px;
-   width: 250px;
-   height: 250px;
+   border-radius: 1.625rem;
+   width: 15.625rem;
+   height: 15.625rem;
 }
 
 #novels-image {
-   border-radius: 10px;
-   width: 250px;
-   height: 250px;
+   border-radius: 1.625rem;
+   width: 15.625rem;
+   height: 15.625rem;
 }
 
 #manga-image {
-   border-radius: 10px;
-   width: 250px;
-   height: 250px;
+   border-radius: 1.625rem;
+   width: 15.625rem;
+   height: 15.625rem;
 }
 
 .white-border {
    border: white solid 3px;
-   border-radius: 10px;
+   border-radius: 0.625rem;
 }
