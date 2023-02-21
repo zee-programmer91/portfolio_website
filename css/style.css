@@ -26,7 +26,7 @@ nav section a {
    text-decoration: none;
 }
 
-div {
+section {
    text-align: center;
 }
 
@@ -135,7 +135,7 @@ footer h2 {
    width: 250px;
 }
 
-#image-div {
+#image-section {
    width: 33%;
 }
 
@@ -165,28 +165,28 @@ footer h2 {
    min-width: 800px;
 }
 
-#python-div {
+#python-section {
    /* background-color: #2a34ee; */
    color: black;
    height: 500px;
    width: 260px;
 }
 
-#java-div {
+#java-section {
    /* background-color: rgb(190, 39, 39); */
    color: black;
    height: 500px;
    width: 260px;
 }
 
-#cSharp-div {
+#cSharp-section {
    /* background-color: #c72aee; */
    color: black;
    height: 500px;
    width: 260px;
 }
 
-#javascript-div {
+#javascript-section {
    /* background-color: #d4a522; */
    color: black;
    height: 500px;
@@ -194,7 +194,7 @@ footer h2 {
 
 }
 
-#sql-div {
+#sql-section {
    /* background-color: #0b1186; */
    color: black;
    height: 500px;
@@ -202,7 +202,7 @@ footer h2 {
 
 }
 
-#css-div {
+#css-section {
    /* background-color: #3997d5; */
    color: black;
    height: 500px;
@@ -210,49 +210,49 @@ footer h2 {
 
 }
 
-#html-div {
+#html-section {
    /* background-color: #ee782a; */
    color: black;
    height: 500px;
    width: 260px;
 }
 
-#aegis-div {
+#aegis-section {
    /* background-color: #ee372a; */
    color: black;
    height: 500px;
    width: 260px;
 }
 
-#bbd-div {
+#bbd-section {
    /* background-color: #930202; */
    color: black;
    height: 500px;
    width: 260px;
 }
 
-#wethinkcode-div {
+#wethinkcode-section {
    /* background-color: #024893; */
    color: black;
    height: 500px;
    width: 260px;
 }
 
-#watching-div {
+#watching-section {
    /* background-color: #024893; */
    color: black;
    height: 1400px;
    width: 400px;
 }
 
-#playing-div {
+#playing-section {
    /* background-color: #024893; */
    color: black;
    height: 1400px;
    width: 400px;
 }
 
-#reading-div {
+#reading-section {
    /* background-color: #024893; */
    color: black;
    height: 1400px;
